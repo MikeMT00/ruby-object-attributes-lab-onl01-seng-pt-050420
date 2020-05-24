@@ -1,12 +1,8 @@
 class Dog
-attr_accessor :name, :breed
+attr_writer :name
 
   def name
     @name
   end
 
-  def breed
-    @breed
-  end
-    
 end
